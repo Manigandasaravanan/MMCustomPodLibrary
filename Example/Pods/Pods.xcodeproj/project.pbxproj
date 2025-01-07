@@ -10,7 +10,7 @@
 		01EE278D6F377C25D0A3CE413AC4BCA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		06AA782E029964EA140CB92FB0814991 /* MMCustomPodLibrary-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A3A41D33B4C134CF09926B5F9F84EDBF /* MMCustomPodLibrary-dummy.m */; };
 		0E9BF027385D7F562596CBF41CED87DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
-		3C35AD6D2D2D3C2400DD3E2D /* FrameworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C35AD6C2D2D3C2400DD3E2D /* FrameworkController.swift */; };
+		3C35AD6F2D2D43B600DD3E2D /* MMFrameworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C35AD6E2D2D43B600DD3E2D /* MMFrameworkController.swift */; };
 		8AB8A7BEE634C18845B03CC0AB6FD486 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */; };
 		8CFDCBB2911E422984D0D45BCED52781 /* MMCustomPodLibrary-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1323EEC68E3B37E914A1AC474CA62216 /* MMCustomPodLibrary-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A335E9F645EBD970FFDBCD7E2742A81D /* Pods-MMCustomPodLibrary_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3702659C643ABE5120A442898D0B32D2 /* Pods-MMCustomPodLibrary_Example-dummy.m */; };
@@ -45,7 +45,7 @@
 		234BCB96EFED4363BC79311985345469 /* MMCustomPodLibrary.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MMCustomPodLibrary.debug.xcconfig; sourceTree = "<group>"; };
 		3702659C643ABE5120A442898D0B32D2 /* Pods-MMCustomPodLibrary_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MMCustomPodLibrary_Example-dummy.m"; sourceTree = "<group>"; };
 		384DDA2CB25005BD6479B5987C619DD4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3C35AD6C2D2D3C2400DD3E2D /* FrameworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkController.swift; sourceTree = "<group>"; };
+		3C35AD6E2D2D43B600DD3E2D /* MMFrameworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MMFrameworkController.swift; path = MMCustomPodLibrary/Classes/MMFrameworkController.swift; sourceTree = "<group>"; };
 		4548C583094CAC736F791E808C7AA0EE /* Pods_MMCustomPodLibrary_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MMCustomPodLibrary_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48C0D0D799AFE02B78B8611A487E84F3 /* Pods-MMCustomPodLibrary_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MMCustomPodLibrary_Tests.modulemap"; sourceTree = "<group>"; };
 		4D457B27080C3C2626222C79281A7DBB /* Pods-MMCustomPodLibrary_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MMCustomPodLibrary_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,7 +163,7 @@
 		BF95C27D7939E1DCCDA2F092A0D653CF /* MMCustomPodLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				3C35AD6C2D2D3C2400DD3E2D /* FrameworkController.swift */,
+				3C35AD6E2D2D43B600DD3E2D /* MMFrameworkController.swift */,
 				5F60A2026A60BF4880EFE97BE2E6798B /* Pod */,
 				EF81B1CE53193F52F5D959F77A5E0695 /* Support Files */,
 			);
@@ -388,8 +388,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3C35AD6D2D2D3C2400DD3E2D /* FrameworkController.swift in Sources */,
 				06AA782E029964EA140CB92FB0814991 /* MMCustomPodLibrary-dummy.m in Sources */,
+				3C35AD6F2D2D43B600DD3E2D /* MMFrameworkController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
