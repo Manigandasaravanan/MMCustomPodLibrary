@@ -1,0 +1,16 @@
+PODS:
+  - MMCustomPodLibrary (0.1.0)
+
+DEPENDENCIES:
+  - MMCustomPodLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  MMCustomPodLibrary:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMCustomPodLibrary: 6e343c3b0a9d0be818e34d4c1635d8ae5596187d
+
+PODFILE CHECKSUM: f2079e40902a9f5e6ddd3e1518b4865eaf0d8787
+
+COCOAPODS: 1.16.2

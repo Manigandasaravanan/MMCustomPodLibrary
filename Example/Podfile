@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MMCustomPodLibrary_Example' do
+  pod 'MMCustomPodLibrary', :path => '../'
+
+  target 'MMCustomPodLibrary_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

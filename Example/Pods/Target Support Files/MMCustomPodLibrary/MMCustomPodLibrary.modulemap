@@ -1,0 +1,6 @@
+framework module MMCustomPodLibrary {
+  umbrella header "MMCustomPodLibrary-umbrella.h"
+
+  export *
+  module * { export * }
+}
